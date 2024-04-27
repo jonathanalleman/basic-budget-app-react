@@ -13,7 +13,7 @@ const StockTracker = () => {
       );
       const globalQuote = response.data['Global Quote'];
 
-      // Check if the stock data is valid
+      
       if (globalQuote && globalQuote['01. symbol'] && globalQuote['05. price']) {
         setStockData(globalQuote);
       } else {

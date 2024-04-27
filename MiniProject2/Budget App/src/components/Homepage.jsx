@@ -7,7 +7,7 @@ import { AddTransaction } from './AddTransactions';
 
 import { GlobalProvider } from '../context/GlobalState';
 
-export default function Homepage() { // Save in pages/Homepage.jsx
+export default function Homepage() { 
     return (
     <>
      <GlobalProvider>

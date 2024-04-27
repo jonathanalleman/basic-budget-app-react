@@ -16,8 +16,8 @@ function App() {
       <Navbar />
       <Routes>
       <Route path='/' exact Component={Homepage}/>
-      <Route path='/about' Component={StockTracker} />
-      <Route path='/contact' Component={Calculator} />
+      <Route path='/stocktracker' Component={StockTracker} />
+      <Route path='/cal' Component={Calculator} />
       </Routes>
     </Router>
   );
